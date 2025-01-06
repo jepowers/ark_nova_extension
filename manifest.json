@@ -7,7 +7,7 @@
    "icons": {
       "128": "images/icon.png"
    },
-   "manifest_version": 1,
-   "name": "Vet Check",
+   "manifest_version": 3,
+   "name": "Improved Vet Check",
    "version": "1.0"
 }
