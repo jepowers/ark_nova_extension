@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "scripts/content.js" ],
+      "matches": [ "https://boardgamearena.com/*/arknova?table=*", "https://boardgamearena.com/*/arknovamw?table=*" ]
+   } ],
+   "description": "`Aide for Ark Nova on BGA`",
+   "icons": {
+      "128": "images/icon.png"
+   },
+   "manifest_version": 1,
+   "name": "Vet Check",
+   "version": "1.0"
+}
