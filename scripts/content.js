@@ -102,13 +102,13 @@ function generateReminders() {
   const expertInSmallAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S229_ExpertInSmallAnimals)")
   if (expertInSmallAnimalsPlayer) {
     const playerId = expertInSmallAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: SmallAnimals')
+    addCard(byPlayer, playerId, 'Expert: Small Animals')
   }
 
   const expertInLargeAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S230_ExpertInLargeAnimals)")
   if (expertInLargeAnimalsPlayer) {
     const playerId = expertInLargeAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: LargeAnimals')
+    addCard(byPlayer, playerId, 'Expert: Large Animals')
   }
 
   const primatologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S236_Primatologist)")
@@ -120,7 +120,7 @@ function generateReminders() {
   const herpetologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S237_Herpetologist)")
   if (herpetologistPlayer) {
     const playerId = herpetologistPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Herpetologist')
+    addCard(byPlayer, playerId, 'Herpes')
   }
 
   const ornithologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S238_Ornithologist)")
@@ -162,13 +162,13 @@ function generateReminders() {
   const whiteRhinocerosPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A427_WhiteRhinoceros)")
   if (whiteRhinocerosPlayer) {
     const playerId = whiteRhinocerosPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'WhiteRhinoceros')
+    addCard(byPlayer, playerId, 'White Rhino')
   }
 
   const indianRhinocerosPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A432_IndianRhinoceros)")
   if (indianRhinocerosPlayer) {
     const playerId = indianRhinocerosPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'IndianRhinoceros')
+    addCard(byPlayer, playerId, 'Indian Rhino')
   }
 
   const baldEaglePlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A505_BaldEagle)")
@@ -186,19 +186,19 @@ function generateReminders() {
   const franchiseBusinessPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S265_FranchiseBusiness)")
   if (franchiseBusinessPlayer) {
     const playerId = franchiseBusinessPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Franchise Business')
+    addCard(byPlayer, playerId, 'Franchise Biz')
   }
 
   const marineBiologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S266_MarineBiologist)")
   if (marineBiologistPlayer) {
     const playerId = marineBiologistPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Marine Biologist')
+    addCard(byPlayer, playerId, 'Marine Bio')
   }
 
   const marineResearchExpeditionPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S270_MarineResearchExpedition)")
   if (marineResearchExpeditionPlayer) {
     const playerId = marineResearchExpeditionPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Marine Research Expedition')
+    addCard(byPlayer, playerId, 'Marine Research')
   }
 
   const expansionAreaPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S272_ExpansionArea)")
@@ -210,7 +210,7 @@ function generateReminders() {
   const publicationsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S273_Publications)")
   if (publicationsPlayer) {
     const playerId = publicationsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Publications')
+    addCard(byPlayer, playerId, 'Pubs')
   }
 
   const horseWhispererPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S275_HorseWhisperer)")
@@ -231,20 +231,18 @@ function generateReminders() {
     return obj
   }, {})
 
-  function formatPlayerCards (playerCards) {
-    const [id, cards] = playerCards
-    const { name, color } = playerLookup[id]
-
-    return `<div><span style="font-weight: 600; color: ${color};">${name}:</span> ${cards.join(', ')}</div>`
+  function formatPlayerCards(playerCards) {
+    const [id, cards] = playerCards;
+    const { name, color } = playerLookup[id];
+    return `<div><span style="font-weight: 600; color: ${color}; font-size: 14px;">${name}:</span> ${cards.join(', ')}</div>`;
   }
 
   ourBox.innerHTML = 
-    `<div style="font-style: italic; font-size: 12px; width: 60px; margin-left: 20px; color: #222;">Reminders</div>
-      <div style="justify-content: center; display: flex; flex-direction: row; gap: 8px; align-items: center; margin-right: 80px; width: 100%">
-      ${Object.entries(byPlayer).map(formatPlayerCards).join('')}
-    </div>`
+  `<div style="font-style: italic; font-size: 10px; width: 60px; margin-left: 20px; color: #222;">Reminders</div>
+   <div style="justify-content: center; display: flex; flex-direction: row; gap: 8px; align-items: center; margin-right: 80px; width: 100%; font-size: 14px;">
+   ${Object.entries(byPlayer).map(formatPlayerCards).join('')}
+  </div>`;
 }
-
 
 const mainHeader = document.querySelector('#page-title')
 mainHeader.insertAdjacentHTML('afterend', `<div id="reminder-box" style="margin-top: 8px; background-color: #f0f0f0; box-shadow: 0 3px 8px rgba(0,0,0,.3); padding-top: 8px; padding-bottom: 8px; display: flex; flex-direction: row; align-items: center;"></div>`)
