@@ -1,6 +1,6 @@
-# Vet Check
+# Ark Nova Juice Detector
 
-Adapted from another chrome extension created by ryan@echternacht.org (https://chromewebstore.google.com/detail/vet-check/jkpbghlppeodajkndihajpdghfhgeefj). 
+This is an adaptation of the [Vet Check](https://chromewebstore.google.com/detail/vet-check/jkpbghlppeodajkndihajpdghfhgeefj) extension. 
 
-I've updated to include the cards my crew cares about, and to update some card names as a joke.
+This version keeps track of the juicy cards that my bruvs and I thirst over in Ark Nova, including new favorites from Marine Worlds.
 
