@@ -102,13 +102,13 @@ function generateReminders() {
   const expertInSmallAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S229_ExpertInSmallAnimals)")
   if (expertInSmallAnimalsPlayer) {
     const playerId = expertInSmallAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: Small Animals')
+    addCard(byPlayer, playerId, 'Ex:Small Animals')
   }
 
   const expertInLargeAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S230_ExpertInLargeAnimals)")
   if (expertInLargeAnimalsPlayer) {
     const playerId = expertInLargeAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: Large Animals')
+    addCard(byPlayer, playerId, 'Ex:Large Animals')
   }
 
   const primatologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S236_Primatologist)")
@@ -132,13 +132,13 @@ function generateReminders() {
   const expertInPredatorsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S239_ExpertInPredators)")
   if (expertInPredatorsPlayer) {
     const playerId = expertInPredatorsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: Predators')
+    addCard(byPlayer, playerId, 'Ex:Predators')
   }
 
   const expertInHerbivoresPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S240_ExpertInHerbivores)")
   if (expertInHerbivoresPlayer) {
     const playerId = expertInHerbivoresPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expert: Herbivores')
+    addCard(byPlayer, playerId, 'Ex:Herbivores')
   }
 
   const sideEntrancePlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S257_SideEntrance)")
@@ -198,13 +198,13 @@ function generateReminders() {
   const marineResearchExpeditionPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S270_MarineResearchExpedition)")
   if (marineResearchExpeditionPlayer) {
     const playerId = marineResearchExpeditionPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Marine Research')
+    addCard(byPlayer, playerId, 'Marine Res. Exp.')
   }
 
   const expansionAreaPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S272_ExpansionArea)")
   if (expansionAreaPlayer) {
     const playerId = expansionAreaPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Expansion Area')
+    addCard(byPlayer, playerId, 'Exp. Area')
   }
 
   const publicationsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S273_Publications)")
