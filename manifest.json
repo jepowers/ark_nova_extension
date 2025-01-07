@@ -7,6 +7,7 @@
    "icons": {
       "128": "images/icon.png"
    },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZlHQ6E4NCz6waP6QZUlmvhsbmKe0EGtroGvlfD37dsTOoOnX7KZj5pcjQqllRqBEKaSugRWim3X/IqotX96K4jwSrgbBDi92/qMqhclxyWYbuMY/tyNaeMxzqsYdrTzmXR4qzN8PUjPrcCdmkKBJLcPulnDf5WCFqSeBwliMtuPk9zutVSoUA4JOiWPunvzvuOzMd1Hqm614ua5v3CguV12DFcUVTiAc9tlG7JJ3PJw95U4eZJtBOCrzUBIwK+WuR0d08AqVGW/f3nyBhS8ML3qvCnPnOxOVsFXdjH43DQSH+y5ufIv+4/JI3D0FlF4BJ3LrFyDynMiCIEvv1AYWwIDAQAB",
    "manifest_version": 3,
    "name": "Improved Vet Check",
    "version": "1.0"
