@@ -18,7 +18,7 @@ function generateReminders() {
   const qlabPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S225_QuarantineLab)")
   if (qlabPlayer) {
     const playerId = qlabPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Q Lab')
+    addCard(byPlayer, playerId, 'QLab')
   }
 
   const explorerPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S262_Explorer)")
@@ -54,13 +54,13 @@ function generateReminders() {
   const medicalBreakthroughPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S206_MedicalBreakthrough)")
   if (medicalBreakthroughPlayer) {
     const playerId = medicalBreakthroughPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Med Breakthrough')
+    addCard(byPlayer, playerId, 'Med Breakthru')
   }
 
   const scienceLibraryPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S208_ScienceLibrary)")
   if (scienceLibraryPlayer) {
     const playerId = scienceLibraryPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Sci Library')
+    addCard(byPlayer, playerId, 'Sci Lib')
   }
 
   const technologyInstitutePlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S209_TechnologyInstitute)")
@@ -72,13 +72,13 @@ function generateReminders() {
   const breedingCooperationPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S215_BreedingCooperation)")
   if (breedingCooperationPlayer) {
     const playerId = breedingCooperationPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Breeding Coop')
+    addCard(byPlayer, playerId, 'Breed Coop')
   }
 
   const talentedCommunicatorPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S216_TalentedCommunicator)")
   if (talentedCommunicatorPlayer) {
     const playerId = talentedCommunicatorPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Talented Com')
+    addCard(byPlayer, playerId, 'Tal Com')
   }
 
   const engineerPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S217_Engineer)")
@@ -90,7 +90,7 @@ function generateReminders() {
   const breedingProgramPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S218_BreedingProgram)")
   if (breedingProgramPlayer) {
     const playerId = breedingProgramPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Breeding Pro')
+    addCard(byPlayer, playerId, 'Breed Pro')
   }
 
   const migrationRecordingPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S224_MigrationRecording)")
@@ -102,19 +102,19 @@ function generateReminders() {
   const expertInSmallAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S229_ExpertInSmallAnimals)")
   if (expertInSmallAnimalsPlayer) {
     const playerId = expertInSmallAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Ex:Small')
+    addCard(byPlayer, playerId, 'xSmall')
   }
 
   const expertInLargeAnimalsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S230_ExpertInLargeAnimals)")
   if (expertInLargeAnimalsPlayer) {
     const playerId = expertInLargeAnimalsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Ex:Large')
+    addCard(byPlayer, playerId, 'xLarge')
   }
 
   const primatologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S236_Primatologist)")
   if (primatologistPlayer) {
     const playerId = primatologistPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Primatologist')
+    addCard(byPlayer, playerId, 'Prima')
   }
 
   const herpetologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S237_Herpetologist)")
@@ -126,19 +126,19 @@ function generateReminders() {
   const ornithologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S238_Ornithologist)")
   if (ornithologistPlayer) {
     const playerId = ornithologistPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Ornithologist')
+    addCard(byPlayer, playerId, 'Orny')
   }
 
   const expertInPredatorsPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S239_ExpertInPredators)")
   if (expertInPredatorsPlayer) {
     const playerId = expertInPredatorsPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Ex:Pred')
+    addCard(byPlayer, playerId, 'xPred')
   }
 
   const expertInHerbivoresPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S240_ExpertInHerbivores)")
   if (expertInHerbivoresPlayer) {
     const playerId = expertInHerbivoresPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Ex:Herb')
+    addCard(byPlayer, playerId, 'xHerb')
   }
 
   const sideEntrancePlayer = document.querySelector(".player-board-inPlay-sponsors:has(#card-S257_SideEntrance)")
@@ -150,43 +150,43 @@ function generateReminders() {
   const africanBushElephantPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A426_AfricanBushElephant)")
   if (africanBushElephantPlayer) {
     const playerId = africanBushElephantPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'As Elephant')
+    addCard(byPlayer, playerId, 'afElephant')
   }
 
   const asianElephantPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A431_AsianElephant)")
   if (asianElephantPlayer) {
     const playerId = asianElephantPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Af Elephant')
+    addCard(byPlayer, playerId, 'asElephant')
   }
 
   const whiteRhinocerosPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A427_WhiteRhinoceros)")
   if (whiteRhinocerosPlayer) {
     const playerId = whiteRhinocerosPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'W Rhino')
+    addCard(byPlayer, playerId, 'wRhino')
   }
 
   const indianRhinocerosPlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A432_IndianRhinoceros)")
   if (indianRhinocerosPlayer) {
     const playerId = indianRhinocerosPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'I Rhino')
+    addCard(byPlayer, playerId, 'iRhino')
   }
 
   const baldEaglePlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A505_BaldEagle)")
   if (baldEaglePlayer) {
     const playerId = baldEaglePlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Eagle')
+    addCard(byPlayer, playerId, 'bEagle')
   }
 
   const goldenEaglePlayer = document.querySelector(".player-board-inPlay-animals:has(#card-A509_GoldenEagle)")
   if (goldenEaglePlayer) {
     const playerId = goldenEaglePlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Eagle')
+    addCard(byPlayer, playerId, 'gEagle')
   }
 
   const franchiseBusinessPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S265_FranchiseBusiness)")
   if (franchiseBusinessPlayer) {
     const playerId = franchiseBusinessPlayer.id.split('-')[2]
-    addCard(byPlayer, playerId, 'Franchise Biz')
+    addCard(byPlayer, playerId, 'Franch Biz')
   }
 
   const marineBiologistPlayer = document.querySelector(".player-board-inPlay-sponsors:has(#S266_MarineBiologist)")
